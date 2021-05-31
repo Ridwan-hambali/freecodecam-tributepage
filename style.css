@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: darkred;
+  color: white;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 50px;
+  color: white;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  margin: 0 1rem;
+}
+
+#title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+#img-div {
+  width: 100%;
+  margin: auto;
+  padding: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  /* #image {
+    max-width: 100%;
+  } */
+}
+
+#tribute-info h1 {
+  text-align: center;
+}
+
+.club {
+  height: 300px;
+  width: 70%;
+  display: flex;
+  margin: 10px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.club-img-container {
+  width: 50%;
+  text-align: center;
+}
+
+.club .club-img {
+  height: 100%;
+  width: 150px;
+}
+
+ul {
+  width: 50%;
+}
